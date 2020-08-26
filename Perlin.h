@@ -1,17 +1,3 @@
-/**
- * Perlin.h
- * v. 1.0.0
- * 
- * Definition for Perlin class. An instantiated Perlin object can generate smoothed Perlin noise by calling the noise() function.
- *
- * Copyright Chris Little 2012
- * Author: Chris Little
- */
-
-#ifndef _PERLIN_H_
-#define _PERLIN_H_
-
-
 class Perlin {
 public:
 	Perlin();
@@ -28,5 +14,3 @@ private:
 	float *Gy;
 	float *Gz;
 };
-
-#endif
